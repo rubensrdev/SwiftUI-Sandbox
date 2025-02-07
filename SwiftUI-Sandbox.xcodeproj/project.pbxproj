@@ -6,17 +6,22 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		456E0D572D561B6D00E2542E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456E0D512D561B6D00E2542E /* Preview Assets.xcassets */; };
+		456E0D582D561B6D00E2542E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456E0D532D561B6D00E2542E /* Assets.xcassets */; };
+		456E0D592D561B6D00E2542E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E0D542D561B6D00E2542E /* ContentView.swift */; };
+		456E0D5A2D561B6D00E2542E /* SwiftUI_SandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E0D552D561B6D00E2542E /* SwiftUI_SandboxApp.swift */; };
+		45E748572D561C67003A8AE8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E748562D561C67003A8AE8 /* TextView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		456E0D402D5617C300E2542E /* SwiftUI-Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		456E0D512D561B6D00E2542E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		456E0D532D561B6D00E2542E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		456E0D542D561B6D00E2542E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		456E0D552D561B6D00E2542E /* SwiftUI_SandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SandboxApp.swift; sourceTree = "<group>"; };
+		45E748562D561C67003A8AE8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		456E0D422D5617C300E2542E /* SwiftUI-Sandbox */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "SwiftUI-Sandbox";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		456E0D3D2D5617C300E2542E /* Frameworks */ = {
@@ -32,7 +37,7 @@
 		456E0D372D5617C300E2542E = {
 			isa = PBXGroup;
 			children = (
-				456E0D422D5617C300E2542E /* SwiftUI-Sandbox */,
+				456E0D562D561B6D00E2542E /* SwiftUI-Sandbox */,
 				456E0D412D5617C300E2542E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +48,34 @@
 				456E0D402D5617C300E2542E /* SwiftUI-Sandbox.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		456E0D522D561B6D00E2542E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				456E0D512D561B6D00E2542E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		456E0D562D561B6D00E2542E /* SwiftUI-Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				456E0D532D561B6D00E2542E /* Assets.xcassets */,
+				456E0D522D561B6D00E2542E /* Preview Content */,
+				45E748512D561BEC003A8AE8 /* Experiments */,
+				456E0D542D561B6D00E2542E /* ContentView.swift */,
+				456E0D552D561B6D00E2542E /* SwiftUI_SandboxApp.swift */,
+			);
+			path = "SwiftUI-Sandbox";
+			sourceTree = "<group>";
+		};
+		45E748512D561BEC003A8AE8 /* Experiments */ = {
+			isa = PBXGroup;
+			children = (
+				45E748562D561C67003A8AE8 /* TextView.swift */,
+			);
+			path = Experiments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				456E0D422D5617C300E2542E /* SwiftUI-Sandbox */,
 			);
 			name = "SwiftUI-Sandbox";
 			packageProductDependencies = (
@@ -109,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				456E0D572D561B6D00E2542E /* Preview Assets.xcassets in Resources */,
+				456E0D582D561B6D00E2542E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +151,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45E748572D561C67003A8AE8 /* TextView.swift in Sources */,
+				456E0D592D561B6D00E2542E /* ContentView.swift in Sources */,
+				456E0D5A2D561B6D00E2542E /* SwiftUI_SandboxApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +293,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -268,7 +303,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.ruben.SwiftUI-Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -287,8 +322,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,7 +332,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "dev.ruben.SwiftUI-Sandbox";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
