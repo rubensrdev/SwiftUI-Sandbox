@@ -11,6 +11,7 @@
 		456E0D582D561B6D00E2542E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456E0D532D561B6D00E2542E /* Assets.xcassets */; };
 		456E0D592D561B6D00E2542E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E0D542D561B6D00E2542E /* ContentView.swift */; };
 		456E0D5A2D561B6D00E2542E /* SwiftUI_SandboxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E0D552D561B6D00E2542E /* SwiftUI_SandboxApp.swift */; };
+		45AF6C352D57760100A29620 /* Western.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45AF6C342D57760100A29620 /* Western.ttf */; };
 		45E748572D561C67003A8AE8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E748562D561C67003A8AE8 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
@@ -20,6 +21,8 @@
 		456E0D532D561B6D00E2542E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		456E0D542D561B6D00E2542E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		456E0D552D561B6D00E2542E /* SwiftUI_SandboxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SandboxApp.swift; sourceTree = "<group>"; };
+		45AF6C332D57758500A29620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		45AF6C342D57760100A29620 /* Western.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Western.ttf; sourceTree = "<group>"; };
 		45E748562D561C67003A8AE8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +64,8 @@
 		456E0D562D561B6D00E2542E /* SwiftUI-Sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				45AF6C332D57758500A29620 /* Info.plist */,
+				45AF6C342D57760100A29620 /* Western.ttf */,
 				456E0D532D561B6D00E2542E /* Assets.xcassets */,
 				456E0D522D561B6D00E2542E /* Preview Content */,
 				45E748512D561BEC003A8AE8 /* Experiments */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				456E0D572D561B6D00E2542E /* Preview Assets.xcassets in Resources */,
+				45AF6C352D57760100A29620 /* Western.ttf in Resources */,
 				456E0D582D561B6D00E2542E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,11 +296,11 @@
 				DEVELOPMENT_TEAM = 8MU6QHY59H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Sandbox/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -319,11 +325,11 @@
 				DEVELOPMENT_TEAM = 8MU6QHY59H;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SwiftUI-Sandbox/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
