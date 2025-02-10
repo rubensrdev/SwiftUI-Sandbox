@@ -106,6 +106,15 @@ struct TextView: View {
 					.onAppear {
 						isVisible.toggle()
 					}
+				
+				// Witch gradient background and clip shape
+				Text("Text with background and gradient")
+					.font(.title3)
+					.bold()
+					.padding(8)
+					.background(LinearGradient(colors: [.gray, .black], startPoint: .leading, endPoint: .trailing).opacity(0.2))
+					.clipShape(RoundedRectangle(cornerRadius: 10))
+				
 			}
 			.padding()
 		}
