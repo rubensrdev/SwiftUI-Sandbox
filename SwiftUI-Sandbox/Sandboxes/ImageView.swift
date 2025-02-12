@@ -134,26 +134,33 @@ struct ImageView: View {
 				.scaledToFit()
 				.frame(width: 200)
 				.scaleEffect(isScaled ? 1.5 : 1)
-				  .animation(.spring(response: 0.5, dampingFraction: 0.5), value: isScaled)
-				  .onTapGesture {
-					  isScaled.toggle()
-				  }
+				.animation(.spring(response: 0.5, dampingFraction: 0.5), value: isScaled)
+				.onTapGesture {
+					isScaled.toggle()
+				}
 			Divider()
 			
 			// With transition to show image
-			Button {
-				showImage.toggle()
-			} label: {
-				Text("Tap to show image")
+			VStack {
+				Button {
+					withAnimation {
+						showImage.toggle()
+					}
+				} label: {
+					Text(showImage ? "Hide image" : "Show image")
+						.foregroundStyle(.primary)
+						
+				}
+				
+				if showImage {
+					Image("forest")
+						.resizable()
+						.scaledToFit()
+						.frame(width: 200)
+						.transition(.scale)
+				}
 			}
-
-			Image("forest")
-				.resizable()
-				.scaledToFit()
-				.frame(width: 200)
-				.transition(.slide)
-				.animation(.easeInOut, value: showImage)
-			
+			Divider()
 		}
 		
 		
