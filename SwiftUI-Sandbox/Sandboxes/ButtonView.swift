@@ -93,6 +93,22 @@ struct ButtonView: View {
 			}
 			Divider()
 			
+			// With image and text
+			Button {
+				print("Only with image tapped!")
+			} label: {
+				ZStack {
+					Image(.pattern)
+						.resizable()
+						.scaledToFit()
+						.frame(width: 120)
+						.clipShape(.buttonBorder)
+					Text("Overlay text")
+						.foregroundStyle(.black)
+						.bold()
+				}
+			}
+			
 			// Disabled button
 			Button {
 				
