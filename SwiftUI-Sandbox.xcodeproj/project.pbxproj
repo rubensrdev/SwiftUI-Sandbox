@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		452AB4202D63380C001026A8 /* FormViewAndDataEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452AB41F2D63380C001026A8 /* FormViewAndDataEntry.swift */; };
+		456C54C22D64863600D6FC60 /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456C54C12D64863600D6FC60 /* SectionView.swift */; };
 		456E0D572D561B6D00E2542E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456E0D512D561B6D00E2542E /* Preview Assets.xcassets */; };
 		456E0D582D561B6D00E2542E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 456E0D532D561B6D00E2542E /* Assets.xcassets */; };
 		456E0D592D561B6D00E2542E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456E0D542D561B6D00E2542E /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		452AB41F2D63380C001026A8 /* FormViewAndDataEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewAndDataEntry.swift; sourceTree = "<group>"; };
+		456C54C12D64863600D6FC60 /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 		456E0D402D5617C300E2542E /* SwiftUI-Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-Sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		456E0D512D561B6D00E2542E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		456E0D532D561B6D00E2542E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				45EAEE722D5E0622002C5556 /* LabelView.swift */,
 				45EAEE742D5E0E33002C5556 /* LabeledContentView.swift */,
 				452AB41F2D63380C001026A8 /* FormViewAndDataEntry.swift */,
+				456C54C12D64863600D6FC60 /* SectionView.swift */,
 			);
 			path = Sandboxes;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				452AB4202D63380C001026A8 /* FormViewAndDataEntry.swift in Sources */,
 				45AF6C372D5A022200A29620 /* ImageView.swift in Sources */,
+				456C54C22D64863600D6FC60 /* SectionView.swift in Sources */,
 				45EAEE752D5E0E33002C5556 /* LabeledContentView.swift in Sources */,
 				45E748572D561C67003A8AE8 /* TextView.swift in Sources */,
 				45B459362D5D0B7400AC4647 /* ButtonView.swift in Sources */,
