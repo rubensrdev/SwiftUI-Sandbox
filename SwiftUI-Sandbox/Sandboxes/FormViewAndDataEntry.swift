@@ -24,6 +24,10 @@ struct FormViewAndDataEntry: View {
 			Form {
 				Section {
 					TextField("Your name:", text: $name)
+						// React to changes
+						.onChange(of: name) {
+							print("Name changed to \(name)")
+						}
 					Picker("Car model", selection: $carModel) {
 						ForEach(CarModel.allCases, id: \.self) { model in
 							Text(model.rawValue)
