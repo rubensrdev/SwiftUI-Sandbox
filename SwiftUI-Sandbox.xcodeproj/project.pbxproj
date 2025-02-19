@@ -16,6 +16,7 @@
 		45AF6C352D57760100A29620 /* Western.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 45AF6C342D57760100A29620 /* Western.ttf */; };
 		45AF6C372D5A022200A29620 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AF6C362D5A022200A29620 /* ImageView.swift */; };
 		45B459362D5D0B7400AC4647 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B459352D5D0B7400AC4647 /* ButtonView.swift */; };
+		45E058832D65DA17005C91A9 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E058822D65DA17005C91A9 /* TextFieldView.swift */; };
 		45E748572D561C67003A8AE8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E748562D561C67003A8AE8 /* TextView.swift */; };
 		45EAEE732D5E0622002C5556 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EAEE722D5E0622002C5556 /* LabelView.swift */; };
 		45EAEE752D5E0E33002C5556 /* LabeledContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EAEE742D5E0E33002C5556 /* LabeledContentView.swift */; };
@@ -33,6 +34,7 @@
 		45AF6C342D57760100A29620 /* Western.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Western.ttf; sourceTree = "<group>"; };
 		45AF6C362D5A022200A29620 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		45B459352D5D0B7400AC4647 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		45E058822D65DA17005C91A9 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		45E748562D561C67003A8AE8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		45EAEE722D5E0622002C5556 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		45EAEE742D5E0E33002C5556 /* LabeledContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				45EAEE742D5E0E33002C5556 /* LabeledContentView.swift */,
 				452AB41F2D63380C001026A8 /* FormViewAndDataEntry.swift */,
 				456C54C12D64863600D6FC60 /* SectionView.swift */,
+				45E058822D65DA17005C91A9 /* TextFieldView.swift */,
 			);
 			path = Sandboxes;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				45EAEE752D5E0E33002C5556 /* LabeledContentView.swift in Sources */,
 				45E748572D561C67003A8AE8 /* TextView.swift in Sources */,
 				45B459362D5D0B7400AC4647 /* ButtonView.swift in Sources */,
+				45E058832D65DA17005C91A9 /* TextFieldView.swift in Sources */,
 				456E0D592D561B6D00E2542E /* ContentView.swift in Sources */,
 				456E0D5A2D561B6D00E2542E /* SwiftUI_SandboxApp.swift in Sources */,
 				45EAEE732D5E0622002C5556 /* LabelView.swift in Sources */,
