@@ -19,6 +19,7 @@
 		45E058832D65DA17005C91A9 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E058822D65DA17005C91A9 /* TextFieldView.swift */; };
 		45E748572D561C67003A8AE8 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E748562D561C67003A8AE8 /* TextView.swift */; };
 		45E9FBEC2D672BCD00ED3786 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9FBEB2D672BCD00ED3786 /* PickerView.swift */; };
+		45E9FBF22D687C9100ED3786 /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E9FBF12D687C9100ED3786 /* ToggleView.swift */; };
 		45EAEE732D5E0622002C5556 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EAEE722D5E0622002C5556 /* LabelView.swift */; };
 		45EAEE752D5E0E33002C5556 /* LabeledContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EAEE742D5E0E33002C5556 /* LabeledContentView.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,7 @@
 		45E058822D65DA17005C91A9 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
 		45E748562D561C67003A8AE8 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		45E9FBEB2D672BCD00ED3786 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		45E9FBF12D687C9100ED3786 /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 		45EAEE722D5E0622002C5556 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
 		45EAEE742D5E0E33002C5556 /* LabeledContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,6 +113,7 @@
 				456C54C12D64863600D6FC60 /* SectionView.swift */,
 				45E058822D65DA17005C91A9 /* TextFieldView.swift */,
 				45E9FBEB2D672BCD00ED3786 /* PickerView.swift */,
+				45E9FBF12D687C9100ED3786 /* ToggleView.swift */,
 			);
 			path = Forms;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				45AF6C372D5A022200A29620 /* ImageView.swift in Sources */,
 				456C54C22D64863600D6FC60 /* SectionView.swift in Sources */,
 				45EAEE752D5E0E33002C5556 /* LabeledContentView.swift in Sources */,
+				45E9FBF22D687C9100ED3786 /* ToggleView.swift in Sources */,
 				45E748572D561C67003A8AE8 /* TextView.swift in Sources */,
 				45E9FBEC2D672BCD00ED3786 /* PickerView.swift in Sources */,
 				45B459362D5D0B7400AC4647 /* ButtonView.swift in Sources */,
